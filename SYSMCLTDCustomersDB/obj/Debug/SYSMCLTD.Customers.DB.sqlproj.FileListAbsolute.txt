@@ -1,0 +1,9 @@
+C:\Users\hannahs\source\repos\SYSMCLTD.Customers\SYSMCLTDCustomersDB\bin\Debug\SYSMCLTD.Customers.DB.dacpac
+C:\Users\hannahs\source\repos\SYSMCLTD.Customers\SYSMCLTDCustomersDB\bin\Debug\SYSMCLTDCustomersDB.dll
+C:\Users\hannahs\source\repos\SYSMCLTD.Customers\SYSMCLTDCustomersDB\bin\Debug\SYSMCLTDCustomersDB.pdb
+C:\Users\hannahs\source\repos\SYSMCLTD.Customers\SYSMCLTDCustomersDB\obj\Debug\SYSMCLTDCustomersDB.dll
+C:\Users\hannahs\source\repos\SYSMCLTD.Customers\SYSMCLTDCustomersDB\obj\Debug\SYSMCLTDCustomersDB.pdb
+C:\Users\hannahs\source\repos\SYSMCLTD.Customers\SYSMCLTDCustomersDB\obj\Debug\Model.xml
+C:\Users\hannahs\source\repos\SYSMCLTD.Customers\SYSMCLTDCustomersDB\obj\Debug\refactor.xml
+C:\Users\hannahs\source\repos\SYSMCLTD.Customers\SYSMCLTDCustomersDB\obj\Debug\postdeploy.sql
+C:\Users\hannahs\source\repos\SYSMCLTD.Customers\SYSMCLTDCustomersDB\obj\Debug\predeploy.sql

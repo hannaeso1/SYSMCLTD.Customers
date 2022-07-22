@@ -1,0 +1,26 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Customers]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Drop
+       unnamed constraint on [dbo].[Customers] (Default Constraint)
+       unnamed constraint on [dbo].[Customers] (Default Constraint)
+     Table rebuild
+       [dbo].[Customers] (Table)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_Addresses_ToCustomers] (Foreign Key)
+       [dbo].[FK_Contacts_ToCustomers] (Foreign Key)
+     Create
+       [dbo].[FK_Addresses_ToCustomers] (Foreign Key)
+       [dbo].[FK_Contacts_ToCustomers] (Foreign Key)
+     Refresh
+       [dbo].[GetAllCustomers] (Procedure)

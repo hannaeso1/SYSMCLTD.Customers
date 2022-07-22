@@ -1,0 +1,12 @@
+C:\Users\hannahs\source\repos\SYSMCLTD.Customers\SYSMCLTD.Customers.Data\bin\Debug\netcoreapp3.1\SYSMCLTD.Customers.Data.deps.json
+C:\Users\hannahs\source\repos\SYSMCLTD.Customers\SYSMCLTD.Customers.Data\bin\Debug\netcoreapp3.1\SYSMCLTD.Customers.Data.runtimeconfig.json
+C:\Users\hannahs\source\repos\SYSMCLTD.Customers\SYSMCLTD.Customers.Data\bin\Debug\netcoreapp3.1\SYSMCLTD.Customers.Data.runtimeconfig.dev.json
+C:\Users\hannahs\source\repos\SYSMCLTD.Customers\SYSMCLTD.Customers.Data\bin\Debug\netcoreapp3.1\SYSMCLTD.Customers.Data.dll
+C:\Users\hannahs\source\repos\SYSMCLTD.Customers\SYSMCLTD.Customers.Data\bin\Debug\netcoreapp3.1\SYSMCLTD.Customers.Data.pdb
+C:\Users\hannahs\source\repos\SYSMCLTD.Customers\SYSMCLTD.Customers.Data\obj\Debug\netcoreapp3.1\SYSMCLTD.Customers.Data.AssemblyInfoInputs.cache
+C:\Users\hannahs\source\repos\SYSMCLTD.Customers\SYSMCLTD.Customers.Data\obj\Debug\netcoreapp3.1\SYSMCLTD.Customers.Data.AssemblyInfo.cs
+C:\Users\hannahs\source\repos\SYSMCLTD.Customers\SYSMCLTD.Customers.Data\obj\Debug\netcoreapp3.1\SYSMCLTD.Customers.Data.csproj.CoreCompileInputs.cache
+C:\Users\hannahs\source\repos\SYSMCLTD.Customers\SYSMCLTD.Customers.Data\obj\Debug\netcoreapp3.1\SYSMCLTD.Customers.Data.dll
+C:\Users\hannahs\source\repos\SYSMCLTD.Customers\SYSMCLTD.Customers.Data\obj\Debug\netcoreapp3.1\SYSMCLTD.Customers.Data.pdb
+C:\Users\hannahs\source\repos\SYSMCLTD.Customers\SYSMCLTD.Customers.Data\obj\Debug\netcoreapp3.1\SYSMCLTD.Customers.Data.genruntimeconfig.cache
+C:\Users\hannahs\source\repos\SYSMCLTD.Customers\SYSMCLTD.Customers.Data\obj\Debug\netcoreapp3.1\SYSMCLTD.Customers.Data.csprojAssemblyReference.cache

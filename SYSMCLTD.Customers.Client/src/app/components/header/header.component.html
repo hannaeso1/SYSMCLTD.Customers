@@ -1,0 +1,20 @@
+<header><mat-toolbar color="primary" fxLayout="row" fxLayoutAlign="space-between center">
+    <span>
+        {{title}}
+    </span>
+    <div fxLayout="row" fxShow="false" fxShow.gt-sm>
+      <button mat-button routerLink="/customers">
+        <mat-icon>home</mat-icon>
+        Home
+      </button>
+    </div>
+    <div fxLayout="row" fxShow="false" fxShow.gt-sm>
+      <button mat-button routerLink="/add-customer">
+        <mat-icon>add_circle</mat-icon>
+        Add New Customer
+      </button>
+    </div>
+  
+  </mat-toolbar>
+</header>
+  

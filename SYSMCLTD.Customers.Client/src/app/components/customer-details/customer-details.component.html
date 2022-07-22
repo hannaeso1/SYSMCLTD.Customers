@@ -1,0 +1,50 @@
+<h1>Customer Details ID: {{customer?.id}}</h1>
+<mat-card>
+<mat-list *ngIf="!isEditMode">
+    <mat-list-item>
+      <span>Name: {{customer?.name}}</span>
+    </mat-list-item>
+    <mat-divider></mat-divider>
+    <mat-list-item> 
+      <span>Number:  {{customer?.customerNumber}}</span>
+      &nbsp;
+    </mat-list-item>
+    <mat-divider></mat-divider>
+
+     
+    <div class="example-button-row">
+      <button mat-raised-button color="primary" *ngIf="!isEditMode" (click)="changeEditState()"><mat-icon>edit</mat-icon>Edit Customer Details</button>
+    </div>
+
+</mat-list>
+<app-add-edit-customer-component *ngIf="isEditMode" [customerId]="customerId"></app-add-edit-customer-component>
+</mat-card>
+<mat-card>
+  <mat-accordion>
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+           Addresses:
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <div *ngFor="let address of customer?.addresses">
+        City: {{address.city}},&nbsp;&nbsp;&nbsp;street: {{address.street}}
+      </div>
+    </mat-expansion-panel>
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Contacts:
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <div *ngFor="let contact of customer?.contacts">
+        Name: {{contact.fullName}},&nbsp;&nbsp;&nbsp;Office Number: {{contact.officeNumber}},&nbsp;&nbsp;&nbsp;Email: {{contact.email}}
+      </div>
+      <button mat-raised-button color="primary" (click)="showAddContactForm()"><mat-icon>add_circle</mat-icon>Add Contact</button>
+
+      <app-add-contact *ngIf="isShowNewContactForm" [customerId]="customerId"></app-add-contact>
+    </mat-expansion-panel>
+    </mat-accordion>
+  </mat-card>
+   
+

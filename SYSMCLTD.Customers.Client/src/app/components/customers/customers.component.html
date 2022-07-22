@@ -1,0 +1,38 @@
+<div><div><h1>{{title}}</h1></div>
+
+<table mat-table *ngIf="this.customers != undefined" [dataSource]="this.customers!" class="mat-elevation-z8">
+
+    <ng-container matColumnDef="id">
+      <th mat-header-cell *matHeaderCellDef> ID </th>
+      <td mat-cell *matCellDef="let element"> {{element.id}} </td>
+    </ng-container>
+  
+    <ng-container matColumnDef="name">
+      <th mat-header-cell *matHeaderCellDef> Name </th>
+      <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+    </ng-container>
+  
+    <ng-container matColumnDef="customerNumber">
+      <th mat-header-cell *matHeaderCellDef> Customer Number </th>
+      <td mat-cell *matCellDef="let element"> {{element.customerNumber}} </td>
+    </ng-container>
+  
+     <!-- Action Column -->
+     <ng-container matColumnDef="action">
+        <th mat-header-cell *matHeaderCellDef> Action </th>
+        <td mat-cell *matCellDef="let element" > 
+          <a class="action-link" (click)="gotoRow(element.id, false)">View</a> | 
+          <a class="action-link" (click)="gotoRow(element.id,true)">Edit</a> | 
+          <a class="action-link" (click)="deleteRow(element.id)">Delete</a>  
+        </td>
+      </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+
+  </table>
+<br>
+<br>
+  <button mat-raised-button color="primary" (click)="gotoAddRow()"><mat-icon>add_circle</mat-icon>Add New Customer</button>
+</div>
+  

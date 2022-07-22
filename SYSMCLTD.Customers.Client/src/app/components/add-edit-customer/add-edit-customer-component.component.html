@@ -1,0 +1,27 @@
+<h1 *ngIf="isAddMode">Add Customer</h1>
+<h1 *ngIf="!isAddMode">Edit Customer</h1>
+<mat-card>
+<form class="example-form" [formGroup]="customerForm" (ngSubmit)="onSubmit()">
+    <div *ngIf="!isAddMode" [style.display]="'none'">
+        <mat-form-field class="example-full-width">
+          <input matInput formControlName="id" >
+    </mat-form-field>
+    </div>
+    <div>
+          <mat-form-field class="example-full-width">
+            <input matInput formControlName="name" placeholder="Enter name">
+      </mat-form-field>
+      </div>
+      <div>
+          <mat-form-field class="example-full-width">
+            <input matInput formControlName="customerNumber" placeholder="Enter customer number">
+      </mat-form-field>
+    </div>
+         
+        <div class="example-button-row">
+          <button mat-raised-button color="primary" type="submit" >Submit</button> 
+        </div>
+    
+ 
+    </form>
+</mat-card>
